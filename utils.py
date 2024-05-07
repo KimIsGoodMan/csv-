@@ -45,6 +45,3 @@ def dateframe_agent(df, query):
     response_dict = json.loads(response["output"])
     return response_dict
 
-import pandas as pd
-df = pd.read_csv("Mount gds 16.1.0 for 199.csv")
-print(dateframe_agent(df,"id为7001的坐骑，总共有多少级"))
